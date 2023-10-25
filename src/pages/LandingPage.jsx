@@ -7,9 +7,11 @@ const LandingPage = () => {
   return (
     <div className="bg-white">
       <Navbar />
+      <div className="overflow-x-hidden">
       <Hero />
       <Content />
       <Footer/>
+      </div>
     </div>
   );
 };
