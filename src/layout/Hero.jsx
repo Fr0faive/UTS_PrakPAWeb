@@ -2,7 +2,7 @@ import { Button } from "../component/Button";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row-reverse h-screen bg-white w-full mb-0 lg:mb-10">
+    <div className="flex flex-col lg:flex-row-reverse h-screen bg-white w-full pt-20 lg:pt-0 mb-0 lg:mb-10">
       <div className="bg-hero bg-cover h-[456px] lg:h-screen lg:w-1/2"></div>
       <div className="bg-white lg:w-1/2 flex justify-center items-center my-6 lg:h-screen">
         <div className="mx-20">
